@@ -20,3 +20,12 @@ elif(resultado_partida == 'derrota'):
     print('O novo rating da Beth Harmon é',int(novo_rating3))
 else:
     print("Resultado da partida invalido")
+    
+    '''
+    INPUT'S
+    #1 - 2000
+        2500
+        empate
+    #2 - 1750
+        1500
+        vitoria
