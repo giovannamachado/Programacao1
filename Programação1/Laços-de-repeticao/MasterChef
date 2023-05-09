@@ -1,0 +1,24 @@
+numeros_chefs = int(input())
+menor_media = 100
+chef_eliminado = ''
+contador = 0
+media_0 = False
+
+while (contador != numeros_chefs):
+    nome = input()
+    nota_1 = float(input())
+    nota_2 = float(input())
+    nota_3 = float(input())
+    media_atual = (nota_1 + nota_2 + nota_3)/3
+    if media_atual <= 0.0:
+        media_0 = True
+    elif media_atual < menor_media:
+     menor_media = media_atual
+     chef_eliminado = nome
+
+    contador += 1
+    
+if media_0:
+    print('Ocorreu um erro no sistema de notas, por favor insira notas validas')
+elif menor_media < media_atual:
+     print(f'O chef eliminado da vez é: {chef_eliminado} - {menor_media :.2f}')
