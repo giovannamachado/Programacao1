@@ -13,7 +13,11 @@
 * Recursão
 * Tuplas e Dicionários
 
-### Para rodar os códigos, basta copiar as entradas que estão comentadas ao final de cada um e usar como input.
+
+
+
+
+##### made by: Giovanna Machado
 
 
 
